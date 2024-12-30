@@ -129,7 +129,7 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
     text-align: right;
-    color: #000000;
+    color: var(--text-color);
 }
 
 /* Tarefa */
@@ -312,6 +312,7 @@ button:hover {
     }
 }
 
+
 .ads div i {
     position: absolute;
     top: 5px;
@@ -358,7 +359,7 @@ body {
 }
 
 body {
-    background: linear-gradient(0deg,  #ffe066, var(--bg-color) 50%);
+    background: linear-gradient(0deg,  #ffe066, var(--bg-color) 0%);
     transition: 0.3s ease;
 }
 
