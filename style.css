@@ -283,7 +283,7 @@ button:hover {
     text-align: center;
     box-shadow: 0 8px 16px var(--shadow-color);
     background: linear-gradient(120deg, #f8f8f8, #e9ecef);
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 1s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .ads div.active {
@@ -346,13 +346,12 @@ button:hover {
 
 /* Estilos */
 body {
-    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: background-color 0.1s ease, color 0.5s ease;
 }
 
 /* Sombras e gradientes */
 .container, .obj, .studentsList, .ads div {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
 }
 .container:hover, .obj:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -360,7 +359,7 @@ body {
 
 body {
     background-color: var(--bg-color);
-    transition: 0.3s ease;
+
 }
  
 
@@ -390,7 +389,6 @@ body.dark-mode {
 }
 /* Aplicação de Variáveis */
 body {
-    background-color: var(--bg-color);
     color: var(--text-color);
 }
 
