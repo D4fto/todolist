@@ -359,7 +359,7 @@ body {
 }
 
 body {
-    background: linear-gradient(0deg,  #ffe066, var(--bg-color) 0%);
+    background-color: var(--bg-color);
     transition: 0.3s ease;
 }
 
